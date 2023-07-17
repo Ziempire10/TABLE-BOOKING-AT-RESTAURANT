@@ -1,0 +1,166 @@
+@media screen and (max-width:768px) {
+    body{
+        width: 100%;
+    }
+
+    section {
+        /* display: flex; */
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+    }
+
+    .about1info1 {
+        border: 2px solid #0c0c0c;
+        height: 192px;
+        padding: 8px 14px 0 12px;
+        width: 70%;
+        text-align: justify;
+        margin-top: 45px;
+        margin-left: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: italic;
+        color: white;
+    }
+
+    .about1info2 {
+        border: 2px solid #0c0c0c;
+        height: 192px;
+        padding: 8px 14px 0 12px;
+        width: 70%;
+        text-align: justify;
+        margin-top: 45px;
+        margin-left: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: italic;
+        color: white;
+    }
+
+    .home1 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+         margin: 0rem;
+        color: white;
+        font-family: 'Bakbak One';
+        max-width: 130%;
+    }
+
+    .home1 p{
+        padding-left: 20px;
+    }
+
+    .shalf img {
+        border: 4px solid #0c0c0c;
+        border-radius: 10px;
+        margin: 5vw;
+    }
+
+    .sub2sec img {
+        /* margin-right: 110px; */
+        height: 21vh;
+    }
+    
+    .cards {
+        display: flex;
+        margin-left: 5px;
+    }
+
+    .p1{
+        padding-right: 20px;
+    }
+
+}
+
+@media (max-width: 425px) {
+    /* CSS rules for screens with width 425px or less go here */
+    
+    /* Example styles */
+    body {
+      font-size: 16px;
+    }
+    
+    .container {
+      width: 100%;
+      margin: 0 auto;
+    }
+    
+    .menu {
+      display: none;
+    }
+    
+    .logo {
+      height: 50px;
+      margin: 10px;
+    }
+
+    .shalf img {
+        border: 4px solid #0c0c0c;
+        border-radius: 10px;
+        margin: 50px -1px 2px 0px;
+  }
+  .home1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0rem;
+    color: white;
+    font-family: 'Bakbak One';
+    max-width: 130%;
+    flex-direction: column;
+}
+/*.shalf img {
+    border: 4px solid #0c0c0c;
+    border-radius: 10px;
+    margin: 20px 43px 2px 50px;
+}*/
+
+.shalf {
+    width: 100%;
+}
+
+.fhalf p{
+    width: 100%;
+    margin: 0px 43px 0px 50px;
+}
+.about1info1 {
+    border: 2px solid #0c0c0c;
+    height: 297px;
+    padding: 8px 14px 0 12px;
+    width: 70%;
+    text-align: justify;
+    margin-top: 45px;
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: white;
+}
+
+.about1info2 {
+    border: 2px solid #0c0c0c;
+    height: 297px;
+    padding: 8px 14px 0 12px;
+    width: 70%;
+    text-align: justify;
+    margin-top: 45px;
+    margin-left: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: white;
+}
+
+.p1{
+    margin:8px 85px 12px -10px ;
+}
+}
+  
+@media (max-width: 320px){
+    .about1info1{
+        height: 420px;
+    }
+    .about1info2{
+        height: 420px;
+    }
+}
+  

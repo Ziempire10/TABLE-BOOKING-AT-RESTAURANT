@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.body1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    color: white;
+}
+
+.main{
+    width: 100%;
+    margin-top: 112px;
+    margin-bottom: 112px;
+    margin-left: auto;
+}
+.single-menu img{
+    width: 40%;
+}
+
+.section-title {
+    text-align: center;
+}
+
+section-title h2 {
+    text-transform: capitalize;
+    font-size: 35px;
+    position: absolute;
+    display: inline-block;
+}
+
+
+
+.section-title p{
+    padding-top: 15px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.menu-column{
+    padding-left: 55px;
+    width: 35%;
+    margin-top: 25px;
+}
+
+.menu-column h4{
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+
+
+.single-menu{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.single-menu img{
+    border-radius: 45%;
+    border: 1px dashed blue;
+    margin-right: 15px;
+    padding: 3px;
+    transition: 0.3s;
+}
+
+.single-menu:hover img{
+    transform: rotate(360deg);
+}
+.single-menu .menu-content h5{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 500;
+    width: 200px;
+    border-bottom: 1px dotted #00875c;
+    padding-bottom: 3px;
+    margin-bottom: 5px;    
+}
+
+.single-menu .menu-content h5 span{
+    color: tomato;
+    float: right;
+    font-weight: 600;
+    font-style: italic ;
+}
+
+.table{
+    font-size: 32px;
+    text-align: center;
+    color: white;
+
+}
+
+@media only screen and (max-width:1150px) {
+    .menu-column {
+        padding-left: 55px;
+        width: 35%;
+        margin-top: 25px;
+        margin-right: 20px
+    }
+
+    .single-menu{
+        display: grid;
+    }
+
+    .single-menu .menu-content h5{
+        text-transform: capitalize;
+        font-size: 20px;
+        font-weight: 500;
+        width: 200px;
+        border-bottom: 1px dotted #00875c;
+        padding-top: 3px;
+        margin-top: 5px;    
+    }
+}
+
+@media only screen and (max-width:425px) {
+    .menu-column {
+        padding-left: 20px;
+        width: 100%;
+        margin-top: 20px;
+        margin-right: 0;
+    }
+
+    .single-menu{
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .single-menu .menu-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .single-menu .menu-content {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .single-menu .menu-content h5{
+        text-transform: capitalize;
+        font-size: 18px;
+        font-weight: 500;
+        width: 100%;
+        border-bottom: 1px dotted #00875c;
+        padding-top: 3px;
+        margin-top: 5px;
+    }
+
+    .more{
+        padding: 25px;
+    }
+
+    .single-menu img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .menu-column {
+      padding-left: 10px;
+      width: 100%;
+      margin-top: 10px;
+      margin-right: 0;
+    }
+  
+    .single-menu {
+      display: block;
+    }
+
+    .single-menu img{
+        width: 100%;
+    }
+  
+    .single-menu .menu-content h5 {
+      text-transform: capitalize;
+      font-size: 16px;
+      font-weight: 500;
+      width: auto;
+      border-bottom: 1px dotted #00875c;
+      padding-top: 3px;
+      margin-top: 5px;
+    }
+    .menu-column h4 {
+        text-transform: capitalize;
+        font-size: 21px;
+        font-weight: 500;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+    }
+  }
+  
